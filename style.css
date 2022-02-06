@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+.img1{
+    background-image: url("bg1.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.fitem{
+    color: white;
+}
+.item1{
+    
+    margin-bottom: 50px;
+}
+.item2{
+    padding: 0px 214px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.btn {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 18px 30px;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+.tag{
+    text-align: center;
+    margin-bottom: 35px;
+    padding-top: 40px;
+}
+.fcontainer1{
+    
+    padding-bottom: 63px;
+    display: flex
+}
+
+.fcontainer2{
+    border: 2px solid black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+}
+.item{
+    border: 2px solid black;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 18px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+} 
+.img{
+    background-image: url("ag1.jpeg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 176px;
+}
+.img3{
+    background-image: url("ag2.jpeg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 176px;
+}
+.img4{
+    background-image: url("ag3.jpeg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 176px;
+}
+.boxcontent{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding:  20px;
+}
+.boxcontent h2{
+    margin: 8px;
+}
+.content{
+    text-align: center;
+}
+.content h2 {
+    margin-top: 48px;
+    margin-bottom: 34px;
+}
+.content p {
+    padding: 0px 148px;
+    margin-bottom: 45px;
+}
+.container{
+    display: flex;
+}
+.itemtwo{
+    color: white;
+    width: 50%;
+}
+.itemtwo h2{
+    padding: 44px;
+}
+.itemtwo p {
+    padding: 0px 65px;
+    padding-bottom: 42px;
+}
+footer{
+    display: flex;
+    color: white;
+    background-color: black;
+}
+.foot{
+    width: 50%;
+    padding: 32px;
+}
+.m10{
+    padding: 0px 93px
+}
+.gray{
+    background-color: #eaeaea;
+}
+.dgray{
+    background-color: #494949;
+}
+.blue{
+    background-color: rgb(81, 81, 255);
+}
